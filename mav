@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('pull') {
             steps {
-                  git branch: 'main', url: 'https://github.com/Chandanakr7/jenkins.git', credentialsId: 'your-credentials-id'
+                  git branch: 'main', url: 'https://github.com/Chandanakr7/jenkinesss.git', credentialsId: 'your-credentials-id'
             }
         }
         
